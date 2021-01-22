@@ -30,7 +30,7 @@ f = os.listdir(wd+'/test_labels/')
 
 
 
-with open(wd+'/result_v4_30000.txt', 'r',encoding='utf8') as f1:
+with open(wd+'/result.txt', 'r',encoding='utf8') as f1:
     line = f1.readline()  # 整行读取数
     i=1
     while i==1:
